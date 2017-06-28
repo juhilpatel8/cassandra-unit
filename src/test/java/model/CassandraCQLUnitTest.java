@@ -16,7 +16,7 @@ import static org.junit.matchers.JUnitMatchers.hasItem;
 /**
  * @author lakshay13@gmail.com
  */
-public class EmpRepositoryTest {
+public class CassandraCQLUnitTest {
 
     @Rule
     public CassandraCQLUnit cassandraCQLUnit = new CassandraCQLUnit(new ClassPathCQLDataSet("cql/employee.cql", "emp_keyspace"));
